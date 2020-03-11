@@ -4,6 +4,7 @@ const _ = require("lodash");
 const prodConf = {
   name: "prod",
   mode: "production",
+  target: "electron-renderer",
   module: {
     rules: [
       {
